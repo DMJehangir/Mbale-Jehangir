@@ -18,8 +18,33 @@ nav {
     text-decoration: none;
     cursor: pointer;
 }
+#navbar ul li{
+    list-style: none;
+}
 header{
     color: black;
     font-size: 1.8rem;
     text-align: center;
+}
+.container{
+    left: 300px;
+}
+.container h1{
+    font-size: 4vmin;
+}
+.container p{
+    font-size: 2vmin;
+}
+.container{
+    font-size: 1.8vmin;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
 }
